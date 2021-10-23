@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211023 20:55:09.168" rpa="false" schemaversion="2">
+<suite id="s1" name="Carrinho Tests" source="C:\Users\Karina\Desktop\kabum\WebDemo-master\carrinho_tests">
+<suite id="s1-s1" name="Carrinho" source="C:\Users\Karina\Desktop\kabum\WebDemo-master\carrinho_tests\carrinho.robot">
+<kw name="Abrir Navegador na Pagina kabum" library="resource" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${WELCOME URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211023 20:55:09.328" level="INFO">Opening browser 'Firefox' to base url 'https://kabum.com.br/'.</msg>
+<msg timestamp="20211023 20:55:09.328" level="INFO">Firefox driver log is always forced to to: C:\Users\Karina\Desktop\kabum\WebDemo-master\geckodriver-1.log</msg>
+<status status="PASS" starttime="20211023 20:55:09.328" endtime="20211023 20:55:16.285"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211023 20:55:16.285" endtime="20211023 20:55:16.545"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>${DELAY}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20211023 20:55:16.545" endtime="20211023 20:55:16.545"/>
+</kw>
+<status status="PASS" starttime="20211023 20:55:09.327" endtime="20211023 20:55:16.545"/>
+</kw>
+<test id="s1-s1-t1" name="Clica departamento hardware">
+<status status="FAIL" starttime="20211023 20:55:16.546" endtime="20211023 20:55:16.546">Test case contains no keywords.</status>
+</test>
+<kw name="Fechar Navegador" library="resource" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211023 20:55:16.546" endtime="20211023 20:55:20.038"/>
+</kw>
+<status status="PASS" starttime="20211023 20:55:16.546" endtime="20211023 20:55:20.039"/>
+</kw>
+<doc>Teste validando busca</doc>
+<status status="FAIL" starttime="20211023 20:55:09.186" endtime="20211023 20:55:20.039"/>
+</suite>
+<status status="FAIL" starttime="20211023 20:55:09.169" endtime="20211023 20:55:20.042"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Carrinho Tests">Carrinho Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Carrinho">Carrinho Tests.Carrinho</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
